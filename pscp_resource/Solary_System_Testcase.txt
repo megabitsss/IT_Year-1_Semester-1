@@ -1,0 +1,75 @@
+One Planet
+Sun Mars
+Earth Sun
+
+_________________________________________
+
+Sun Mid
+Mars Sun Earth
+Venus Sun Earth
+
+_________________________________________
+
+Primary
+Sun Mercury Mars Venus
+Mercury Mars Venus Sun
+
+_________________________________________
+
+Secondary
+Earth Sun Nebula Pluto Mercury Mars Venus
+Mercury Mars Earth Sun Venus
+Mercury Mars Saturn Earth Sun Venus
+
+_________________________________________
+
+Center
+Mercury Mars Earth Sun Pluto Saturn Venus
+Mecury Mars Earth Pluto Venus Sun Mecury Uranus Earth Sunflower California Europe
+Jupiter Earth Sun Moon Saturn
+> Different Cool Distance************
+Input:
+Venus Earth Sun Pluto Neuptune Uranus
+Output:
+Hot: Earth Pluto
+Cool: Uranus
+
+Input :
+Venus Earth Pluto Sun Uranus Mars
+Output :
+Hot: Pluto Uranus
+Cool: Venus
+
+_________________________________________
+
+Weird Sun Name Testcases
+- Input
+Suns Sun Earth Venus Pluto
+- Output
+Hot: Suns Earth
+Cool: Pluto
+
+- Input 
+Mecury Mars Sunzzz Earth Pluto Venus Sun Mecury Uranus Earth Sunflower California Europe
+- Output
+Hot: Venus Mecury
+Cool: Mecury
+
+-Input 
+Suns Sun Earth Megabits
+- Output
+Hot: Suns Earth
+Cool: Megabits
+
+Weird Name + 2 Planets case
+Input:
+Suns Mega Sun
+Output:
+Hot: Mega
+Cool: Suns
+
+Input:
+Sun Mega Suns
+Output:
+Hot: Mega
+Cool: Suns
