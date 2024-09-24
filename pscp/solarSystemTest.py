@@ -68,6 +68,7 @@ def main():
     if sunfin:
         hot += solarsys[solarsys.rfind(' ',0,sunfin)+1:sunfin] + ' '
     if sunfin != len(solarsys)-1:
+        print(solarsys.find(' ',sunfin+5))
         hot += solarsys[sunfin+5:solarsys.find(' ',sunfin+5)]
     print('Hot:',hot)
     print('Cool:',cool)
