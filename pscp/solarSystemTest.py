@@ -65,10 +65,10 @@ def main():
         cool += solarsys[1:solarsys.find(' ',1)] + ' '
         cool += solarsys[solarsys.rfind(' ',0,len(solarsys)-1)+1:len(solarsys)]
     hot = ''
-    if sunfin:
-        hot += solarsys[solarsys.rfind(' ',0,sunfin)+1:sunfin] + ' '
-    if sunfin != len(solarsys)-1:
-        print(solarsys.find(' ',sunfin+5))
+    if sunfin: #ซ้าย
+        hot = solarsys[solarsys.rfind(' ',0,sunfin)+1:sunfin] + ' '
+    z = len(solarsys) -1
+    if sunfin != len(solarsys)-1: #ขวา
         hot += solarsys[sunfin+5:solarsys.find(' ',sunfin+5)]
     print('Hot:',hot)
     print('Cool:',cool)
