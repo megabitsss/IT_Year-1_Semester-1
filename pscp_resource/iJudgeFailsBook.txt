@@ -44,3 +44,4 @@ i<Judge> fails textbook
 #43 Boolean False มีค่าน้อยกว่า True (ใช้ในเรื่อง Sort ได้)
 #44 ถ้า slice string แล้วเกินจะไม่เจออะไร เช่น "Hello"[100:] จะไม่เจออะไร (string เปล่า) แต่ถ้าอ้างอิงเฉยๆ Hello[100] จะ Error; index out of range แทน
 #45 ถ้าเรา remove item ใน list ขณะ travesing item ใน list นั้น จะทำให้เกิด error ได้ (index มีการเปลี่ยน) อาจจะแก้โดยการ .copy() / [:] แทน
+#46 * เป็น operator ที่สามารถ unpack argument ได้ เช่น การส่งหาในฟังก์ชั่นที่มี 2 args แบบนี้ x = (1, 2) func(x) แบบนี้จะ Error เพราะ x ถือเป็น arg เดียว วิธีแก้สามารถใช้ * มา unpack variable ได้

@@ -1,13 +1,16 @@
 """Seeker"""
 def sum_decoder(txt):
     """Get the sum from encoded message"""
+    txt += " "
     num = ""
-    my_list = []
+    total = 0
     for char in txt:
-        if char.isdigit():
+        if char.isnumeric():
             num += char
         else:
-            my_list.append(num)
-            num=""
-    print(my_list)
+            if not num:
+                continue
+            total += int(num)
+            num = ""
+    print(total)
 sum_decoder(input())
